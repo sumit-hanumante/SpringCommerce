@@ -1,0 +1,39 @@
+# Compiled classes & modules
+/target/
+/build/
+
+# Packages
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# IDE and editor files
+/.idea
+*.iml
+*.ipr
+*.iws
+*.suo
+*.user
+*.userprefs
+*.prefs
+*.dat
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper files (uncomment if you want to ignore them)
+#*.cmd
+#*.mvn/
