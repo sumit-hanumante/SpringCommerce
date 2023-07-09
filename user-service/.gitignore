@@ -33,6 +33,8 @@
 # OS files
 .DS_Store
 Thumbs.db
+../.DS_Store
+
 
 # Maven wrapper files (uncomment if you want to ignore them)
 #*.cmd
