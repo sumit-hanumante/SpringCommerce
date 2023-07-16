@@ -1,43 +1,6 @@
 # SpringCommerce
 SpringCommerce is a microservices e-commerce app using Spring Boot. It simulates functionalities including user, product, cart, and order management, and demonstrates practices like Docker, Kubernetes, Netflix Eureka, Netflix Zuul, and Hystrix.
 
-┌──────────────┐  ┌───────────────┐  ┌────────────────┐
-│ User Service ├──│ Auth. Service │──│   API Gateway  │
-└──────────────┘  └───────────────┘  └────────────────┘
-     │                      │                │
-     │                      │                │
-     │                      │     ┌────────────────┐
-     │                      │     │ Product Service│
-     │                      │     └────────────────┘
-     │                      │                │
-     │                      │                │
-     │        ┌──────────────────┐          │
-     │        │  Cart Service    │──────────┘
-     │        └──────────────────┘
-     │                 │
-     │                 │       ┌─────────────────┐
-     │                 └───────│ Inventory Service│
-     │                         └─────────────────┘
-     │                 ┌───────────────┐
-     └─────────────────│ Order Service │
-                       └───────────────┘
-                             │
-                             │
-           ┌───────────────────────────┐
-           │  Payment Service          │
-           └───────────────────────────┘
-                             │
-                             │
-        ┌────────────────────────────┐
-        │  Recommendation Service    │
-        └────────────────────────────┘
-                             │
-                             │
-        ┌────────────────────────────┐
-        │  Review Service            │
-        └────────────────────────────┘
-
-
 ## Installation
 1. Clone this repository to your local machine using `git clone https://github.com/username/SpringCommerce.git`
 2. Install the required dependencies.
